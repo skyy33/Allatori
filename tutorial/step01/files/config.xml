@@ -1,0 +1,16 @@
+<config>
+    <input>
+        <jar in="classes.jar" out="vrv-beauty.jar"/>
+    </input>
+    <classpath>
+        <jar name="android.jar"/>
+    </classpath>
+    <keep-names>
+        <class access="protected+">
+            <field access="protected+"/>
+            <method access="protected+"/>
+        </class>
+    </keep-names>
+
+    <property name="log-file" value="log.xml"/>
+</config>
